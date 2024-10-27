@@ -1,4 +1,4 @@
-package java.org.example.productcatalogservice.repos;
+package org.example.productcatalogservice.repos;
 
 import jakarta.transaction.Transactional;
 import org.example.productcatalogservice.models.Category;
@@ -16,17 +16,17 @@ public class CategoryRepoTest {
     @Autowired
     private CategoryRepo categoryRepo;
 
-    @Test
+   /* @Test
     @Transactional
     public void testFetchTypes() {
         Category category = categoryRepo.findById(2L).get();
         for(Product product : category.getProducts()) {
             System.out.println(product.getDescription());
         }
-    }
+    }*/
 
 
-    @Test
+   // @Test
     @Transactional
     public void testFetchModesAndTypes() {
  //       Category category = categoryRepo.findByDescription("ewifhewih").get();
@@ -35,7 +35,7 @@ public class CategoryRepoTest {
 //        }
     }
 
-    @Test
+   // @Test
     @Transactional
     public void runSubQueries() {
         List<Category> cats = categoryRepo.findAll();

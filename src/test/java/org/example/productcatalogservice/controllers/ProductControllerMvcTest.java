@@ -1,4 +1,4 @@
-package java.org.example.productcatalogservice.controllers;
+package org.example.productcatalogservice.controllers;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.example.productcatalogservice.controllers.ProductController;

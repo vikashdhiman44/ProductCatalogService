@@ -1,4 +1,4 @@
-package java.org.example.productcatalogservice;
+package org.example.productcatalogservice;
 
 import org.example.productcatalogservice.Calculator;
 import org.junit.jupiter.api.Test;
